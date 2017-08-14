@@ -32,16 +32,6 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Camu
-LOCAL_MODULE_OWNER := elephone
-LOCAL_SRC_FILES := proprietary/priv-app/Camu/Camu.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
 LOCAL_MODULE_OWNER := elephone
 LOCAL_MODULE_TAGS := optional
